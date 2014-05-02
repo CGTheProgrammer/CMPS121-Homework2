@@ -8,5 +8,7 @@
     <string name="title_activity_second">SecondActivity</string>
     <string name="second_activity_hello">Hello, you are in the second activity.</string>
     <string name="back">Back</string>
+    <string name="Refresh">refresh</string>
+    <string name="refresh">Refresh</string>
 
 </resources>

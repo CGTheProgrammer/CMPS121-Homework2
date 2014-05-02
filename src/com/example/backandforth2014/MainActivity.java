@@ -16,8 +16,16 @@ public class MainActivity extends Activity {
 	static public String url;
 	
 	static final private String LOG_TAG = "main";
+	public String WEBSITE = "tittle";
+	public String URL = "url";
+	
+	public class listItem {
+		String website;
+		String url;
+	}
 	
 	AppInfo appInfo;
+	//CustomAdapter customListAdapter;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +47,6 @@ public class MainActivity extends Activity {
 		SharedPreferences settings = getSharedPreferences(MainActivity.url, 0);
 		
 	}
-	
-	
 	
 	public void goOther(View V) {
 		// Grab the text, and store it in a preference.
@@ -68,5 +74,7 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, SecondActivity.class);
 		startActivity(intent);
 	}
+	
+	
 
 }
