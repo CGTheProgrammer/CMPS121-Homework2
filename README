@@ -1,0 +1,1 @@
+This is a second attempt for homework 2, this is based off of files directly from the professer. This is the bare minimum skeleton for the assignment. It is able to transfer a String varialbe between activities by storing it into the preferences. The second activity has a 'back' button and WebView. 
